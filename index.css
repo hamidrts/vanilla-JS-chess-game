@@ -1,0 +1,37 @@
+.cell {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  zoom: 1;
+  font-size: 25px;
+  text-align: center;
+  vertical-align: middle;
+  box-shadow: inset;
+}
+
+.row {
+  display: flex;
+}
+
+.black {
+  background-color: rgb(76, 73, 73);
+}
+
+.white {
+  background-color: white;
+}
+
+.attackCell {
+  box-shadow: 20px 20px 10px rgba(128, 0, 0, 0.15) inset,
+    -20px -20px 10px rgba(128, 0, 0, 0.15) inset;
+  background-color: rgba(128, 0, 0, 0.15);
+}
+
+.movementCell {
+  box-shadow: 20px 20px 10px rgba(0, 128, 0, 0.15) inset,
+    -20px -20px 10px rgba(0, 128, 0, 0.15) inset;
+}
+
+.kish {
+  background-color: rgba(128, 0, 0, 0.15);
+}
